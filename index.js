@@ -1,12 +1,12 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks (someValue) {
- if (someValue > 42) {
-   return someValue - 42;
+function distanceFromHqInBlocks (blockNumber) {
+ if (blockNumber > 42) {
+   return blockNumber - 42;
  } else {
-   return 42 - someValue;
+   return 42 - blockNumber;
  }
 }
 
-function distanceFromHqInFeet (someValue) {
-  return distanceFromHqInBlocks(someValue) * 264;
+function distanceFromHqInFeet (blockNumber) {
+  return distanceFromHqInBlocks(blockNumber) * 264;
 }
