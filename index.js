@@ -1,2 +1,9 @@
 // Code your solution in this file!
-distanceFromHqInBlocks()
+function distanceFromHqInBlocks(someValue) {
+
+}
+
+function distanceFromHqInFeet(someValue) {
+
+  
+}
